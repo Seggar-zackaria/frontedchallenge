@@ -1,0 +1,65 @@
+@font-face
+{
+    font-family: "HankenGrotesk";
+    src: url('./HankenGrotesk-VariableFont_wght.ttf');
+}
+
+*{
+    font-family: 'HankenGrotesk' !important;
+}
+
+img {
+    width: 32px !important;
+}
+
+.circle {
+    
+    border-radius: 100% !important;
+    width: 150px !important;
+    height: 150px !important;
+    /* background: linear-gradient(to top #332de9, #6845fb); */
+    box-shadow: inset  1px 1px 45px 55px rgb(51, 45, 233,.5);
+    
+}
+
+.gradient {
+    background: linear-gradient(#6845fb, #332de9);
+}
+
+
+@media screen and (min-width:320px) ,(max-with:425px){
+   
+    section.container {
+        margin-top: 0px !important;
+        
+    } 
+
+    section div.gradient {
+        border-radius: 0% 0% 15% 15% !important;
+        } 
+
+    .text{
+        font-size: 15px !important;
+    }    
+}
+@media screen and (min-width:430px) ,(max-with:768px){
+   
+    section.container {
+        margin-top: 100px !important;
+        
+    } 
+
+    section div.gradient {
+        border-radius: 10% 10% 10% 10% !important;
+        }
+
+        .text{
+            padding: 0px 30px  !important;
+        }      
+}
+
+button:hover {
+    background: linear-gradient(#6845fb, #332de9);
+
+}
+
